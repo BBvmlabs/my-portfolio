@@ -1,0 +1,244 @@
+.experience__container{
+    display: grid;
+     /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+   /* grid-template-columns: 3fr 3fr 3fr 3fr;    */
+    /* grid-template-columns: auto 3fr;
+    grid-template-rows: auto 3fr; */
+    gap: 3rem;
+    row-gap: 4rem;
+    column-gap: 4rem;
+}
+/* .experience__container{
+    display: grid;
+    text-align: center;
+    grid-template-columns: auto 1fr;
+    gap: 2;   
+}  */
+
+.experience__container > div {
+    display: grid;
+    overflow:auto;
+    text-align: center;
+    background: #232348;
+    padding: 1rem 4rem;
+    border-radius: 3rem;
+    border: 0cap solid transparent;
+    transition: var(--transition);
+}
+
+.experience__container >:hover {
+    display: grid;
+    background: transparent;
+    border-color: var(--color-bg-2);
+    cursor: default;
+    box-shadow: 4px 5px 5px rgba(255, 255, 255, 0.5);
+}
+
+.experience__container > div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-white);
+}
+
+/*======================== Experience content ========================== */
+.experience__content {
+    display: grid;
+       
+    text-align: center; 
+    grid-template-columns: repeat(5, 2fr);
+    gap: 2.5rem;
+    /* row-gap: 4rem;
+    column-gap: 4rem; */
+
+}
+
+.experience__detail {
+    display: flex;
+    gap: 2rem;
+    text-align: center;
+}
+  
+.centered {
+    display:flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+  }
+  
+  .centered img {
+    margin-top: 50;
+    width: 32px; /* Fixed width */
+    height: 32px; /* Fixed height */
+    vertical-align: middle;
+    margin-bottom: 4% /* Ensures the image aligns properly with text */
+  }
+
+h5{
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+h6{
+    color: rgb(255 255 255 / 60%);
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 60px;
+}
+
+h3{
+    color: rgb(255 255 255 / 60%);
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+/* Try for the certification  */
+
+.achievement__container {
+    /* padding: 90px; */
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2.5rem;
+ 
+
+}
+
+.achievement__container2 {
+    /* padding: 90px; */
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+
+
+.achievement__item {
+    background: #232348;
+    padding: 1.3rem;
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+
+    
+}
+
+
+.achievement__item:hover {
+    border-color: #232348;
+    background: transparent;
+    box-shadow: 4px 5px 5px rgba(255, 255, 255, 0.5);
+
+}
+
+.achievement__item-image {
+    margin: 20px;
+
+    overflow: hidden;
+}
+
+.achievement__item h3 {
+    margin: 1.3rem 0 2rem;
+}
+
+.achievement__item-cta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Badge settings */
+
+.achievement__badge {
+    background: var(--color-primary-verient);
+    padding: 1.3rem;
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    
+}
+
+
+.achievement__badge:hover {
+    border-color: var(--color-bg-1);
+    background: transparent;
+    box-shadow: 4px 5px 5px rgba(255, 255, 255, 0.5);
+
+}
+
+.achievement__badge-image {
+    display: block;       /* Makes the image a block-level element */
+    margin-left: auto;    /* Center horizontally */
+    margin-right: auto;   /* Center horizontally */
+    max-width: 100%;      /* Ensure the image is responsive */
+    height: auto; 
+    
+}
+
+.achievement__badge h3 {
+    margin: 1.3rem 0 2rem;
+}
+
+.achievement__badge-cta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+/* ===================== Media Queries (Medium Device) ====================== */
+@media screen and (max-width: 3000px) {
+    .experience__container{
+        grid-template-columns: 1fr;
+    }
+    .experience__container > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    .experience__content{
+        padding: 1rem;
+    }
+
+}
+
+
+
+/* ===================== Media Queries (Medium Device) ====================== */
+@media screen and (max-width: 600px) {
+
+    .experience__container > div {
+        display: grid;
+        overflow:-moz-hidden-unscrollable;
+        text-align: center;
+        background: #232348;
+        padding: 0rem 0rem;
+        border-radius: 3rem;
+        border: 0cap solid transparent;
+        transition: var(--transition);
+    }
+    .experience__container{
+        gap: 0rem;
+ 
+    }
+    .experience__container > {
+        width: 100%;
+        padding: 0rem 0rem;
+
+    }
+    .experience__content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .achievement__badge {
+        padding: 10px;
+      }
+
+    .achievement__container2{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+      .achievement__item-cta {
+        margin-top: 10px;
+      }
+}

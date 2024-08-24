@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.14a34a48.css",
+    "main.js": "/static/js/main.b8ceebee.js",
+    "static/media/main.jpg": "/static/media/main.c7b87d75094d9ac73bc3.jpg",
+    "static/media/intern2.png": "/static/media/intern2.b7afc320c98b4a2f7f7e.png",
+    "static/media/bg-texture.png": "/static/media/bg-texture.ae8cce514f20563cab47.png",
+    "static/media/guvi.png": "/static/media/guvi.6f0bd91d061736d64ac0.png",
+    "static/media/Badhri's Resume.pdf": "/static/media/Badhri's Resume.8b2e69f11c2246322ddd.pdf",
+    "static/media/port3.png": "/static/media/port3.e2eddf0c91cfa3031e96.png",
+    "static/media/ec.png": "/static/media/ec.ebc35d30d89182ed6602.png",
+    "static/media/cisco1.png": "/static/media/cisco1.a380a4831d63bc2f486b.png",
+    "static/media/intern1.png": "/static/media/intern1.04c820a5b2beb512e702.png",
+    "static/media/port1.png": "/static/media/port1.9a9258df928383024584.png",
+    "static/media/internlogo.png": "/static/media/internlogo.e7311bd811ab3452269c.png",
+    "static/media/badge1.png": "/static/media/badge1.7237704b4de96b8c091c.png",
+    "static/media/forage2.png": "/static/media/forage2.7633ba1ccddc4fc855a3.png",
+    "static/media/forage1.png": "/static/media/forage1.1f064a7f48724090212c.png",
+    "static/media/py-logo.png": "/static/media/py-logo.e08f046ae94a48e998f0.png",
+    "static/media/port2.png": "/static/media/port2.f266d9eb4bb2877e76cb.png",
+    "index.html": "/index.html",
+    "main.14a34a48.css.map": "/static/css/main.14a34a48.css.map",
+    "main.b8ceebee.js.map": "/static/js/main.b8ceebee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14a34a48.css",
+    "static/js/main.b8ceebee.js"
+  ]
+}
