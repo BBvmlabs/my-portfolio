@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.77af6832.css",
-    "main.js": "/my-portfolio/static/js/main.039bb466.js",
+    "main.js": "/my-portfolio/static/js/main.ccca6243.js",
     "static/media/main.jpg": "/my-portfolio/static/media/main.c7b87d75094d9ac73bc3.jpg",
     "static/media/intern2.png": "/my-portfolio/static/media/intern2.b7afc320c98b4a2f7f7e.png",
     "static/media/guvi.png": "/my-portfolio/static/media/guvi.6f0bd91d061736d64ac0.png",
-    "static/media/Badhri's Resume.pdf": "/my-portfolio/static/media/Badhri's Resume.8b2e69f11c2246322ddd.pdf",
+    "static/media/Badhri's Resume.pdf": "/my-portfolio/static/media/Badhri's Resume.e03678670213ae1b94fc.pdf",
     "static/media/port3.png": "/my-portfolio/static/media/port3.e2eddf0c91cfa3031e96.png",
     "static/media/ec.png": "/my-portfolio/static/media/ec.ebc35d30d89182ed6602.png",
     "static/media/cisco1.png": "/my-portfolio/static/media/cisco1.a380a4831d63bc2f486b.png",
@@ -18,12 +18,13 @@
     "static/media/half.jpeg": "/my-portfolio/static/media/half.32c24ff5490a44d86a28.jpeg",
     "static/media/py-logo.png": "/my-portfolio/static/media/py-logo.e08f046ae94a48e998f0.png",
     "static/media/port2.png": "/my-portfolio/static/media/port2.f266d9eb4bb2877e76cb.png",
+    "static/media/BBfooter.png": "/my-portfolio/static/media/BBfooter.f969bb74fac664c09d2f.png",
     "index.html": "/my-portfolio/index.html",
     "main.77af6832.css.map": "/my-portfolio/static/css/main.77af6832.css.map",
-    "main.039bb466.js.map": "/my-portfolio/static/js/main.039bb466.js.map"
+    "main.ccca6243.js.map": "/my-portfolio/static/js/main.ccca6243.js.map"
   },
   "entrypoints": [
     "static/css/main.77af6832.css",
-    "static/js/main.039bb466.js"
+    "static/js/main.ccca6243.js"
   ]
 }

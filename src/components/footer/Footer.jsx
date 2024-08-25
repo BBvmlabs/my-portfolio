@@ -3,6 +3,8 @@ import './footer.css'
 import {BsLinkedin} from 'react-icons/bs'
 import {FaGithub} from 'react-icons/fa'
 
+import footerimg from "../../assets/BBfooter.png"
+
 
 const Footer = () => {
   return (
@@ -22,7 +24,7 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-  <small>&copy; Designed By <img src="./images/BB.jpg" alt="Logo" className="footer-logo" />
+  <small>&copy; Designed By <img src={footerimg} alt="Logo" className="footer-logo" />
     
   </small>
 </div>
