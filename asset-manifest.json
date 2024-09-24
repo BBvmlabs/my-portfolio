@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.77af6832.css",
-    "main.js": "/my-portfolio/static/js/main.ccca6243.js",
+    "main.js": "/my-portfolio/static/js/main.b66a1c0c.js",
     "static/media/main.jpg": "/my-portfolio/static/media/main.c7b87d75094d9ac73bc3.jpg",
     "static/media/intern2.png": "/my-portfolio/static/media/intern2.b7afc320c98b4a2f7f7e.png",
     "static/media/guvi.png": "/my-portfolio/static/media/guvi.6f0bd91d061736d64ac0.png",
-    "static/media/Badhri's Resume.pdf": "/my-portfolio/static/media/Badhri's Resume.e03678670213ae1b94fc.pdf",
+    "static/media/Badhri's Resume.pdf": "/my-portfolio/static/media/Badhri's Resume.a962fd88e944d4e2e996.pdf",
     "static/media/port3.png": "/my-portfolio/static/media/port3.e2eddf0c91cfa3031e96.png",
     "static/media/ec.png": "/my-portfolio/static/media/ec.ebc35d30d89182ed6602.png",
     "static/media/cisco1.png": "/my-portfolio/static/media/cisco1.a380a4831d63bc2f486b.png",
@@ -21,10 +21,10 @@
     "static/media/BBfooter.png": "/my-portfolio/static/media/BBfooter.f969bb74fac664c09d2f.png",
     "index.html": "/my-portfolio/index.html",
     "main.77af6832.css.map": "/my-portfolio/static/css/main.77af6832.css.map",
-    "main.ccca6243.js.map": "/my-portfolio/static/js/main.ccca6243.js.map"
+    "main.b66a1c0c.js.map": "/my-portfolio/static/js/main.b66a1c0c.js.map"
   },
   "entrypoints": [
     "static/css/main.77af6832.css",
-    "static/js/main.ccca6243.js"
+    "static/js/main.b66a1c0c.js"
   ]
 }
